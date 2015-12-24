@@ -1,21 +1,28 @@
 1 Installing Git for Linux
 sudo apt-get install git
+
 2 Configuring GitHub
 git config --global user.name "user_name"
 git config --global user.email "email_id"
+
 3 Creating a local repository
 git init Mytest
 cd Mytest
+
 4 Creating a README file to describe the repository
 gedit README
+
 5 Adding repository files to an index
 2 files
 README and sample.c
 git add README
 git add smaple.c
+
 6 Committing changes made to the index
 git commit -m "some_message"
+
 7 Creating a repository on GitHub
 git remote add origin https://github.com/user_name/Mytest.git
+
 8 Pushing files in local repository to GitHub repository
 git push origin master
