@@ -25,4 +25,4 @@ git commit -m "some_message"
 git remote add origin https://github.com/user_name/Mytest.git
 
 8 Pushing files in local repository to GitHub repository
-git push origin master
+git push origin master.
